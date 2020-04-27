@@ -23,6 +23,10 @@ re-downloaded in order to locate PACKAGE."
       evil-want-C-u-scroll t
       evil-want-C-w-in-emacs-state t)
 
+;; for mac keyboard
+(setq mac-command-modifier 'meta)
+(setq mac-control-modifier 'control)
+
 (require 'evil)
 (evil-mode t)
 (custom-set-variables
